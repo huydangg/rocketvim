@@ -1,6 +1,6 @@
 -- :help options
 --
-opt = vim.opt
+local opt = vim.opt
 opt.clipboard = "unnamedplus" 		-- allows neovim to access the system clipboard
 opt.mouse = "a" 			-- allow the mouse to be used in neovim
 opt.ignorecase = true			-- ignore case in search patterns

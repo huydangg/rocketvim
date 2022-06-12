@@ -31,3 +31,6 @@ keymap("v", "<A-j>", ":m .+1<CR>==", opts)
 keymap("v", "<A-k>", ":m .-2<CR>==", opts)
 keymap("v", "p", '"_dP', opts)
 
+-- Telescope
+keymap("n", "<C-p>", ":Telescope find_files<CR>", opts)
+keymap("n", "<C-g>", ":Telescope live_grep<CR>", opts)

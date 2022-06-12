@@ -30,7 +30,6 @@ packer.init {
 }
 
 return packer.startup(function(use)
-  -- ----------------------PLUGINS--------------------------------------
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
   use 'nvim-lua/plenary.nvim'
@@ -53,7 +52,7 @@ return packer.startup(function(use)
 			'goolord/alpha-nvim',
 			requires = { 'kyazdani42/nvim-web-devicons' },
 			config = function ()
-			        require'alpha'.setup(require'alpha.themes.dashboard'.config)	
+				require'alpha'.setup(require'alpha.themes.dashboard'.config)	
 			end
 
 	}
@@ -73,8 +72,13 @@ return packer.startup(function(use)
 	-- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer"
-  -- --------------------------------------------------------------
-	
+
+	-- Telescope
+	use {
+  	'nvim-telescope/telescope.nvim',
+  	requires = { {'nvim-lua/plenary.nvim'} }
+	}
+	use "nvim-telescope/telescope-media-files.nvim"
 
 
 
