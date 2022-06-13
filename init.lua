@@ -14,4 +14,6 @@ require "user.bufferline"
 require "user.lualine"
 require "user.toggleterm"
 require "user.alpha"
+require "user.project"
+require "user.impatient"
 

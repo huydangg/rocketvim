@@ -90,7 +90,15 @@ return packer.startup(function(use)
 
 	--ToggleTerm
 	use "akinsho/toggleterm.nvim"
+
+	-- Alpha
   use "goolord/alpha-nvim"
+
+	-- Project
+  use "ahmedkhalf/project.nvim"
+
+	
+  use 'lewis6991/impatient.nvim'
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then
