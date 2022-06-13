@@ -48,14 +48,6 @@ return packer.startup(function(use)
 		'nvim-lualine/lualine.nvim',
 		requires = { 'kyazdani42/nvim-web-devicons', opt = true }
 	}
-	use {
-			'goolord/alpha-nvim',
-			requires = { 'kyazdani42/nvim-web-devicons' },
-			config = function ()
-				require'alpha'.setup(require'alpha.themes.dashboard'.config)	
-			end
-
-	}
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -81,15 +73,24 @@ return packer.startup(function(use)
 	use "nvim-telescope/telescope-media-files.nvim"
 
 
+	-- Treesitter
+	use {
+		'nvim-treesitter/nvim-treesitter',
+		run = ':TSUpdate'
+	}
 
+	-- Gitsigns
+  use "lewis6991/gitsigns.nvim"
 
+	-- Autopairs
+ 	use "windwp/nvim-autopairs"
 
+	-- Comment
+  use "numToStr/Comment.nvim"
 
-
-
-
-
-
+	--ToggleTerm
+	use "akinsho/toggleterm.nvim"
+  use "goolord/alpha-nvim"
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then

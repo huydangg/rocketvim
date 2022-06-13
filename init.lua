@@ -5,8 +5,13 @@ require "user.colorscheme"
 require "user.cmp"
 require "user.lsp"
 require "user.telescope"
+require "user.treesitter"
+require "user.gitsigns"
+require "user.autopairs"
+require "user.comment"
+require "user.nvim-tree"
+require "user.bufferline"
+require "user.lualine"
+require "user.toggleterm"
+require "user.alpha"
 
-
-require("nvim-tree").setup{}
-require("bufferline").setup{}
-require("lualine").setup{}
