@@ -20,7 +20,6 @@ nvim_tree.setup {
   respect_buf_cwd = false,
   view = {
     adaptive_size = false,
-    centralize_selection = false,
     width = 30,
     height = 30,
     hide_root_folder = false,
@@ -40,7 +39,6 @@ nvim_tree.setup {
     add_trailing = false,
     group_empty = false,
     highlight_git = false,
-    full_name = false,
     highlight_opened_files = "none",
     root_folder_modifier = ":~",
     indent_markers = {
@@ -48,7 +46,6 @@ nvim_tree.setup {
       icons = {
         corner = "└ ",
         edge = "│ ",
-        item = "│ ",
         none = "  ",
       },
     },
@@ -118,10 +115,6 @@ nvim_tree.setup {
     custom = {},
     exclude = {},
   },
-  filesystem_watchers = {
-    enable = false,
-    interval = 100,
-  },
   git = {
     enable = true,
     ignore = true,
@@ -171,7 +164,6 @@ nvim_tree.setup {
       diagnostics = false,
       git = false,
       profile = false,
-      watcher = false,
     },
   },
 }

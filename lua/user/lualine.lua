@@ -7,7 +7,7 @@ end
 lualine.setup{
 	options = {
 			icons_enabled = true,
-			theme = 'auto',
+			theme = 'github_light',
 			component_separators = { left = '', right = ''},
 			section_separators = { left = '', right = ''},
 			disabled_filetypes = { "NvimTree", "TelescopePrompt", "packer", "toggleterm", "alpha" },
