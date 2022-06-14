@@ -1,9 +1,9 @@
 ## Showcase
-![image](https://user-images.githubusercontent.com/34858695/173336235-4d762776-d718-467c-9230-1c9932252921.png)
+![image](https://user-images.githubusercontent.com/34858695/173515710-e5e5d790-4ec8-4a91-a051-1788c36f520e.png)
 
-![image](https://user-images.githubusercontent.com/34858695/173336354-f6879613-34e9-4005-8bcf-8fa89a893e93.png)
+![image](https://user-images.githubusercontent.com/34858695/173515801-0023174b-d7ed-4341-9077-9d06c34061e6.png)
 
-![image](https://user-images.githubusercontent.com/34858695/173336505-51adacbc-72c1-4d14-99f5-d46b5aadb1b0.png)
+![image](https://user-images.githubusercontent.com/34858695/173515879-c90f177a-6a16-439b-acf1-61fc2cdb4323.png)
 
 ## Pre-requisites
 Neovim >= 0.7.0
