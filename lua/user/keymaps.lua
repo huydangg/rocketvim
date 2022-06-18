@@ -47,3 +47,6 @@ keymap("n", "<leader>th", ":lua require'telescope.builtin'.colorscheme(require('
 --Gitsigns
 keymap("n", "<leader>b", ":Gitsigns blame_line<CR>", opts)
 keymap("n", "<leader>d", ":Gitsigns diffthis<CR>", opts)
+
+--ToogleTerm
+keymap("n", "<leader>g", "<cmd>lua _LAZYGIT_TOGGLE()<CR>", { noremap = true, silent = true })
