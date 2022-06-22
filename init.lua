@@ -16,4 +16,3 @@ require "user.toggleterm"
 require "user.alpha"
 require "user.project"
 require "user.impatient"
-
