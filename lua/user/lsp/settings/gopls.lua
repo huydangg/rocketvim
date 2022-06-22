@@ -1,10 +1,10 @@
 return {
 	settings = {
 		gopls = {
-        analyses = {
-          unusedparams = true,
-        },
-        staticcheck = true,
-      },
+			analyses = {
+				unusedparams = true,
+			},
+			staticcheck = true,
+		},
 	},
 }
